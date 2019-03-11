@@ -1,9 +1,9 @@
 ## AC S2 Final test
 
-** RGB to Hex Converter **
+**RGB to Hex Converter**
 1. 分別取得 RGB input 裡的值
-  + 限制輸入只能 0 至 250
-  + 不能輸入空值
+   + 限制輸入只能 0 至 250
+   + 不能輸入空值
 
 2. 將取出來的值轉換成16進位
 
