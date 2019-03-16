@@ -12,7 +12,7 @@ convertBtn.addEventListener('click', event => {
   let greenNumber = parseInt(greenInput.value, 10)
   let blueNumber = parseInt(blueInput.value, 10)
 
-  if (redNumber >= 0 && redNumber <= 250 & greenNumber >= 0 && greenNumber <= 250 && blueNumber >= 0 && blueNumber <= 250) {
+  if (redNumber >= 0 && redNumber <= 255 & greenNumber >= 0 && greenNumber <= 255 && blueNumber >= 0 && blueNumber <= 255) {
     let hexRed = redNumber.toString(16)
     let hexGreen = greenNumber.toString(16)
     let hexBlue = blueNumber.toString(16)
